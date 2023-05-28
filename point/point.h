@@ -15,6 +15,8 @@ public:
     void func(string varname, void *p);
 
     void new_test();
+
+    void nullptr_test();
 };
 
 
