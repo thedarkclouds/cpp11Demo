@@ -10,7 +10,10 @@ add_subdirectory(pojo)
 add_subdirectory(struct_test)
 add_subdirectory(virtual)
 
-add_executable(cpp11 main.cpp )
+add_subdirectory(hy_string)
+
+
+add_executable(cpp11 main.cpp)
 target_link_libraries(cpp11 arrayStaicLib)
 target_link_libraries(cpp11 stringStaicLib)
 target_link_libraries(cpp11 typedefStaicLib)
@@ -18,6 +21,8 @@ target_link_libraries(cpp11 pointStaicLib)
 target_link_libraries(cpp11 pojoStaicLib)
 target_link_libraries(cpp11 structStaicLib)
 target_link_libraries(cpp11 virtualStaicLib)
+target_link_libraries(cpp11 hy_stringStaicLib)
+
 
 
 

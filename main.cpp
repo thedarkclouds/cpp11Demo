@@ -7,14 +7,17 @@
 #include "struct_test/struct_test.h"
 #include "pojo/CGirl.h"
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+#include "hy_string/hyString.h"
 
+
+int main() {
+    hyString hyString;
+    hyString.test();
 
     array_test t;
     //t.test();
     string_test h;
-    //h.test();
+    h.test();
 
     point p;
     //p.new_test();
