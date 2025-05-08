@@ -148,3 +148,14 @@ void string_test::replaceSpace(char *str, int length) {
         --indexOfOriginal;
     }
 }
+
+void string_test::hytest() {
+
+    string str("string4567890");
+    cout << str << endl;
+    string str3(str, 11, 4);
+    cout << str3 << endl;
+    auto s = string(5, 'a');
+    cout << "-----------------------string¹¹ÔìÆ÷" << s << endl;
+
+}

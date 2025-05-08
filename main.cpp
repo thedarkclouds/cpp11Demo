@@ -11,7 +11,7 @@
 
 
 int main() {
-    hyString hyString;
+/*    hyString hyString;
     //hyString.test();
 
     //array_test t;
@@ -44,7 +44,14 @@ int main() {
 
     CGirl JK;
     JK.test();
-    cout << "-----------------------" << endl;
+    cout << "-----------------------" << endl;*/
+
+
+
+
+    string_test stringTest;
+    stringTest.hytest();
+
 
 
 

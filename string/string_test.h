@@ -9,6 +9,7 @@
 class string_test {
 public:
     void test();
+    void hytest();
 
     void replaceSpace(char str[20], int i);
 };
