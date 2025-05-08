@@ -10,6 +10,9 @@ class array_test {
 public:
     void test();
 
+    void hytest();
+
+
 };
 
 

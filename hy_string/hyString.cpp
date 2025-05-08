@@ -120,4 +120,6 @@ int len;
    //https://docs.qq.com/aio/DVnpUUWtXQ1BXRVNR?AIGenerate=1&p=ddTBn18TtEnLCGKaisr8cU
 
    // https://www.tutorialspoint.com/cplusplus/cpp_strings.htm
+
+   //https://www.cnblogs.com/lmxwiki/articles/18340289   【C++11】内联命名空间用法-inline/namespace
 }

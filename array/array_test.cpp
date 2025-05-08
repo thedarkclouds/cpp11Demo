@@ -25,3 +25,23 @@ void array_test::test() {
     arr4[0] = 6; // ???????????????????6
      cout << "??????----------------------------??" <<arr4[0]<< endl;
 }
+
+void array_test::hytest() {
+    int arr[5];//声明
+    cout<<arr<<endl;
+    arr[0]=1;
+    arr[1]=2;
+    cout<<arr<<endl;
+    for (int i = 0; i < sizeof(arr)/sizeof(arr[0]); ++i) {
+        cout<<"传统for循环"<<arr[i]<<endl;
+    }
+    for (int entity:arr) {
+        cout<<"c++11 for 循环"<<entity<<endl;
+    }
+
+    int arrinit[5]={2,3,4,5,6};
+
+    for (int entity:arrinit) {
+        cout<<"c++11 for 循环  "<<entity<<endl;
+    }
+}

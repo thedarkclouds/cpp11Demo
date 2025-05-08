@@ -12,15 +12,18 @@
 
 int main() {
     hyString hyString;
-    hyString.test();
+    //hyString.test();
 
-    array_test t;
+    //array_test t;
     //t.test();
     string_test h;
-    h.test();
+   // h.test();
 
     point p;
     //p.new_test();
+
+    array_test arrayTest;
+    arrayTest.hytest();
 
 
     void (*pfunc)(int, string);  // ÉùÃ÷º¯ÊıÖ¸Õë
